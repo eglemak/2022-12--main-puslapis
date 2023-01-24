@@ -1,0 +1,109 @@
+:root {
+    --white-color: white;
+    --button-background-color: blue;
+    --button-hover-color: rgb(65, 128, 221);
+}
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.meniu-item {
+    display: inline;
+}
+
+.meniu-item a, .header-button a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 10px;
+}
+
+.main-header, .main-section.header, footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: var(--white-color);
+    padding: 20px;
+}
+
+.page-name {
+    font-size: 100px;
+    display: block;
+    width: 50%;
+}
+
+.second-level-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.page-name span {
+    font-size: 50px;
+}
+
+a.button {
+    background-color: var(--button-background-color);
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+
+a.button:hover {
+    background-color: var(--button-hover-color);
+}
+
+p.page-description {
+    font-size: 20px;
+}
+
+h2.section-name {
+    font-size: 60px;
+}
+
+p.description {
+    font-size: 15px;
+    width: 40%;
+}
+
+.statistic {
+    font-size: 100px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+
+.statistic-description {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+ul.statistic-box,
+.footer-left-meniu-nav,
+.footer-center-meniu-nav,
+.footer-right-meniu-nav {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer-right-nav-meniu-item {
+    display: inline;
+    padding: 10px;
+}
+
+.footer-left-nav-meniu-item a,
+.footer-center-nav-meniu-item a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+.privacy-policy-link, 
+.ca-kids-link {
+    text-decoration: none;
+    color: var(--white-color);
+}
